@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Axonic</title>
+<title>Axonic · Infraestrutura de IA para empresas que desenvolvem em escala</title>
 <meta name="description" content="A Axonic desenvolve o Dandori, a plataforma que coordena múltiplos agentes de IA no desenvolvimento de software em grandes empresas.">
 <link rel="canonical" href="https://axonictec.com/">
 <meta name="theme-color" content="#FFFAF4">
@@ -24,7 +24,8 @@
 <meta name="twitter:title" content="Axonic · Infraestrutura de IA para empresas que desenvolvem em escala">
 <meta name="twitter:description" content="A Axonic desenvolve o Dandori, a plataforma que coordena múltiplos agentes de IA no desenvolvimento de software em grandes empresas.">
 <meta name="twitter:image" content="https://axonictec.com/assets/og-axonic.jpg">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Axonic", "url": "https://axonictec.com/", "logo": "https://axonictec.com/assets/axonic-icon-512.png", "parentOrganization": {"@type": "Organization", "name": "Grupo VEXO"}, "email": "contato@axonictec.com"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Axonic", "url": "https://axonictec.com/", "logo": "https://axonictec.com/assets/axonic-icon-512.png", "parentOrganization": {"@type": "Organization", "name": "Grupo VEXO"}, "email": "contato@axonictec.com", "sameAs": ["https://www.linkedin.com/company/axonictec/"]}</script>
+<link rel="preconnect" href="https://www.googletagmanager.com">
 <script>
 /* ===== CONFIGURAÇÃO DO SITE: edite só aqui ===== */
 window.AXONIC_CONFIG={
@@ -603,9 +604,9 @@ footer{padding-block:72px 40px}
           <p style="margin-top:14px">Feito para empresas com grandes times de engenharia, vários produtos em paralelo e código que não pode quebrar.</p>
         </div>
       </div>
-      <div class="person mesh spec reveal"><img src="img/ax-cut-glasses.webp" alt="Retrato de um executivo de tecnologia sorrindo" loading="lazy"><div class="lbl glass"><b>CTO</b><span>Produtividade de engenharia que escala sem multiplicar o caos.</span></div></div>
-      <div class="person mesh alt spec reveal"><img src="img/ax-cut-vest.webp" alt="Retrato de um líder de engenharia sorrindo" loading="lazy"><div class="lbl glass"><b>VP e Head de Engenharia</b><span>Agentes em paralelo, sem pisar no código uns dos outros.</span></div></div>
-      <div class="person mesh spec reveal"><img src="img/ax-cut-beard.webp" alt="Retrato de um arquiteto de software sorrindo" loading="lazy"><div class="lbl glass"><b>Arquitetura e Segurança</b><span>Padrões aplicados por todos os agentes, com modelos privados.</span></div></div>
+      <div class="person mesh spec reveal"><img src="img/ax-cut-glasses.webp" alt="Gabriel Reitz Giannattasio, CTO da Axonic" loading="lazy"><div class="lbl glass"><b>CTO</b><span>Gabriel Reitz Giannattasio</span></div></div>
+      <div class="person mesh alt spec reveal"><img src="img/ax-cut-vest.webp" alt="Lito Aguiar, CVO da Axonic" loading="lazy"><div class="lbl glass"><b>CVO</b><span>Lito Aguiar</span></div></div>
+      <div class="person mesh spec reveal"><img src="img/ax-cut-beard.webp" alt="Moises Silva, CRO da Axonic" loading="lazy"><div class="lbl glass"><b>CRO</b><span>Moises Silva</span></div></div>
     </div>
   </div>
 </section>
@@ -769,7 +770,7 @@ document.querySelectorAll('.spec').forEach(el=>el.addEventListener('pointermove'
   const c=document.getElementById('axon'), box=document.getElementById('neuron');if(!c)return;
   let W,H,x,br=[],pulses=[],mx=0,my=0,tx=0,ty=0;
   function build(){[W,H,x]=fitCanvas(c);br=[];const L=Math.hypot(W,H);
-    [0,Math.PI,-Math.PI*.25,Math.PI*.25,Math.PI*.75,-Math.PI*.75].forEach(a=>{const b={a,len:L,sub:[]};
+    [0,Math.PI,-Math.PI*.231,Math.PI*.231,Math.PI*.699,-Math.PI*.699].forEach(a=>{const b={a,len:L,sub:[]};
       for(let k=0;k<3;k++)b.sub.push({at:.16+k*.18+Math.random()*.06,a:a+(Math.random()<.5?-1:1)*(.35+Math.random()*.4),len:L*(.1+Math.random()*.16)});br.push(b);});}
   const pt=(b,t,ox,oy)=>[ox+Math.cos(b.a)*b.len*t,oy+Math.sin(b.a)*b.len*t];
   function draw(){
